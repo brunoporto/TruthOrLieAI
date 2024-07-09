@@ -1,0 +1,191 @@
+sentence,label
+"O céu é azul.",1
+"Os cães podem voar.",0
+"A água ferve a 100 graus Celsius.",1
+"Porcos podem nadar no oceano.",0
+"A Terra é plana.",0
+"Pássaros podem falar português.",0
+"O sol nasce no leste.",1
+"Peixes podem viver fora da água.",0
+"Os gatos têm asas.",0
+"Os humanos podem respirar debaixo d'água sem equipamento.",0
+"Os cavalos podem correr a 100 km/h.",0
+"O leite vem das vacas.",1
+"O fogo é frio.",0
+"As árvores produzem oxigênio.",1
+"A Lua é feita de queijo.",0
+"As estrelas estão no céu.",1
+"O mar é feito de chocolate.",0
+"As pedras podem flutuar na água.",0
+"As plantas precisam de luz solar para crescer.",1
+"O deserto é cheio de gelo.",0
+"Os pinguins vivem no deserto do Saara.",0
+"A neve é branca.",1
+"O arroz cresce em árvores.",0
+"As vacas podem voar.",0
+"O vento é invisível.",1
+"Os seres humanos têm três olhos.",0
+"Os morcegos são cegos.",1
+"As formigas podem carregar até 50 vezes seu peso corporal.",1
+"Os elefantes são os maiores mamíferos terrestres.",1
+"A grama é verde.",1
+"O ferro é mais leve que o papel.",0
+"Os peixes precisam de água para sobreviver.",1
+"As girafas têm pescoços curtos.",0
+"A chuva é molhada.",1
+"O açúcar é doce.",1
+"Os leões são herbívoros.",0
+"Os ursos polares vivem no Ártico.",1
+"O vidro é feito de areia.",1
+"As abelhas produzem mel.",1
+"A banana é uma fruta.",1
+"O chocolate é amargo.",1
+"As tartarugas são rápidas.",0
+"As baleias são mamíferos.",1
+"O gelo é quente.",0
+"Os crocodilos são répteis.",1
+"A Lua orbita a Terra.",1
+"O fogo é perigoso.",1
+"As cobras têm pernas.",0
+"O petróleo é encontrado no subsolo.",1
+"O alumínio é um metal.",1
+"As zebras têm listras.",1
+"Os pássaros têm dentes.",0
+"Os camelos têm corcovas.",1
+"A neve é quente.",0
+"O cacto cresce no deserto.",1
+"O sal é doce.",0
+"Os morcegos são aves.",0
+"As baleias vivem no oceano.",1
+"O ouro é um metal precioso.",1
+"As batatas crescem no solo.",1
+"As montanhas são planas.",0
+"As aranhas têm oito pernas.",1
+"O sol é uma estrela.",1
+"Os seres humanos podem voar sem ajuda.",0
+"Os leões vivem na savana.",1
+"A Lua é maior que o Sol.",0
+"O diamante é a substância mais dura conhecida.",1
+"As baleias são peixes.",0
+"Os tubarões são peixes.",1
+"O fogo é sólido.",0
+"O plástico é biodegradável.",0
+"Os golfinhos são mamíferos.",1
+"Os morcegos usam ecolocalização para se mover.",1
+"Os ursos hibernam no inverno.",1
+"Os pandas são carnívoros.",0
+"A Terra orbita o Sol.",1
+"Os crocodilos são mamíferos.",0
+"As ostras produzem pérolas.",1
+"Os vulcões estão sempre ativos.",0
+"As cobras trocam de pele.",1
+"O açúcar é salgado.",0
+"Os camelos armazenam água nas corcovas.",1
+"Os gatos ronronam quando estão felizes.",1
+"Os cangurus têm bolsas.",1
+"O vidro é líquido.",0
+"Os macacos vivem em árvores.",1
+"A areia é feita de rochas trituradas.",1
+"As formigas têm dois corações.",0
+"Os ursos polares têm pele preta.",1
+"Os peixes têm pulmões.",0
+"O leite é uma boa fonte de cálcio.",1
+"Os coelhos são roedores.",1
+"As árvores são plantas.",1
+"A eletricidade é visível.",0
+"Os cães são descendentes dos lobos.",1
+"Os morcegos são mamíferos.",1
+"As cobras são venenosas.",1
+"As vacas têm quatro estômagos.",1
+"Os patos podem nadar.",1
+"As águias têm visão aguçada.",1
+"As corujas são noturnas.",1
+"Os leões têm juba.",1
+"Os morcegos dormem de cabeça para baixo.",1
+"O peixe é um inseto.",0
+"A madeira é usada para construir casas.",1
+"O papel é feito de árvores.",1
+"Os pinguins podem voar.",0
+"O vidro é feito de plástico.",0
+"As borboletas passam por metamorfose.",1
+"O algodão é uma fibra natural.",1
+"Os morcegos comem frutas.",1
+"Os ursos são herbívoros.",0
+"O ouro é mais barato que o ferro.",0
+"O vento é causado pelo movimento do ar.",1
+"A água é essencial para a vida.",1
+"Os gatos têm nove vidas.",0
+"Os ursos polares são brancos.",1
+"A Lua tem gravidade.",1
+"As borboletas têm vida curta.",1
+"Os morcegos bebem sangue.",0
+"O gelo derrete com calor.",1
+"As árvores perdem folhas no outono.",1
+"O sol é frio.",0
+"Os peixes têm barbatanas.",1
+"As zebras vivem na África.",1
+"Os ursos são encontrados em todo o mundo.",0
+"Os cães podem ser treinados.",1
+"O leite é feito de água.",0
+"Os leões são predadores.",1
+"A Terra é redonda.",1
+"As cobras vivem na água.",0
+"O fogo é criado pela combustão.",1
+"O sal é usado na cozinha.",1
+"Os golfinhos são inteligentes.",1
+"Os elefantes têm boa memória.",1
+"As aranhas são insetos.",0
+"As baleias são os maiores animais do planeta.",1
+"O arroz é um grão.",1
+"A água é um mineral.",0
+"Os cangurus são mamíferos.",1
+"Os morcegos têm boa visão.",0
+"O leite é branco.",1
+"As borboletas são coloridas.",1
+"Os camelos vivem no deserto.",1
+"A Lua é um satélite natural.",1
+"O mar é salgado.",1
+"As vacas produzem leite.",1
+"Os cães são amigáveis.",1
+"O mel é produzido por abelhas.",1
+"Os peixes são mamíferos.",0
+"Os gatos são carnívoros.",1
+"Os pássaros fazem ninhos.",1
+"Os ursos polares são perigosos.",1
+"As formigas são sociais.",1
+"Os elefantes têm trombas.",1
+"O gelo é sólido.",1
+"Os morcegos são venenosos.",0
+"As baleias têm pulmões.",1
+"O vidro é frágil.",1
+"As cobras têm escamas.",1
+"As vacas são domesticadas.",1
+"Os golfinhos são brincalhões.",1
+"Os elefantes vivem em manadas.",1
+"As aranhas tecem teias.",1
+"As baleias são lentas.",0
+"O arroz cresce em água.",1
+"As formigas constroem colônias.",1
+"Os cães são independentes.",0
+"Os leões são encontrados na África.",1
+"O mel é doce.",1
+"As girafas têm pescoços longos.",1
+"Os camelos têm dois tipos de corcova.",1
+"Os morcegos são silenciosos.",1
+"O vidro é feito de metal.",0
+"As baleias cantam.",1
+"Os peixes têm escamas.",1
+"Os cães são usados como animais de serviço.",1
+"As aranhas são venenosas.",1
+"As vacas são ruminantes.",1
+"Os golfinhos ajudam os humanos.",1
+"O elefante é o maior animal terrestre.",1
+"As borboletas têm antenas.",1
+"As cobras podem nadar.",1
+"Os gatos são independentes.",1
+"O mel é usado como adoçante.",1
+"Os peixes são rápidos.",1
+"Os camelos têm três corcovas.",0
+"O vidro é transparente.",1
+"Os morcegos são cegos.",0
+"As baleias são amigáveis.",1
