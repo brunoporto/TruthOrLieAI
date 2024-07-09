@@ -1,23 +1,30 @@
-import joblib
+import pickle
+import numpy as np
 
-# Loading the trained model and vectorizer
-model = joblib.load('truth_lie_model.pkl')
-vectorizer = joblib.load('vectorizer.pkl')
+# Load the model and feature vectorizer
+with open('truth_lie_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
 
-# Function to predict if a new sentence is true or false
 def predict_truth_lie(sentence):
-    sentence_vectorized = vectorizer.transform([sentence])
-    prediction = model.predict(sentence_vectorized)
-    return "Verdade" if prediction[0] == 1 else "Mentira"
+    # Transform the input sentence using the feature vectorizer
+    sentence_vectorized = model.named_steps['tfidfvectorizer'].transform([sentence])
+    
+    # Make the prediction using the loaded model
+    prediction_proba = model.named_steps['multinomialnb'].predict_proba(sentence_vectorized)
+    prediction = np.argmax(prediction_proba)
+    confidence = prediction_proba[0][prediction] * 100
+    
+    result = "VERDADE" if prediction == 1 else "MENTIRA"
+    return result, confidence
 
-# Testing the prediction function with examples
+# Example sentences
 examples = [
-    "A lua é feita de queijo.",
-    "Gatos podem ver no escuro.",
-    "Elefantes são os maiores mamíferos terrestres.",
-    "Um ser humano possui dois corações.",
-    "Um coração pertence a dois seres humanos.",
+    "O céu é azul.",
+    "Os cães podem voar.",
+    "A água ferve a 100 graus Celsius.",
+    "O corpo humano tem dois corações.",
 ]
 
 for example in examples:
-    print(f"A frase '{example}' é: {predict_truth_lie(example)}")
+    result, confidence = predict_truth_lie(example)
+    print(f"Tenho {confidence:.2f}% de certeza de que a frase '{example}' é {result}")

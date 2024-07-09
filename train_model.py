@@ -38,7 +38,7 @@ def train_model(data_file, vectorizer_type, language='portuguese'):
 
     # Evaluate on validation set
     y_pred = model.predict(X_val)
-    accuracy = accuracy_score(y_val, y_pred)
+    accuracy = accuracy_score(y_val, y_pred) * 100  # Convert accuracy to percentage
 
     # Save the model and vectorizer
     with open('truth_lie_model.pkl', 'wb') as model_file:
@@ -46,13 +46,18 @@ def train_model(data_file, vectorizer_type, language='portuguese'):
     with open('vectorizer.pkl', 'wb') as vec_file:
         pickle.dump(vectorizer, vec_file)
 
+    num_sentences = len(sentences)
+    num_tokens = len(vectorizer.get_feature_names_out())
+
     print(f"Model training complete and saved to 'truth_lie_model.pkl' and 'vectorizer.pkl'.")
-    print(f"Accuracy on validation set: {accuracy:.4f}")
+    print(f"Trained on {num_sentences} sentences.")
+    print(f"Learned {num_tokens} tokens.")
+    print(f"Accuracy on validation set: {accuracy:.2f}%")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a model to classify text as truth or lie.")
     parser.add_argument('--data', type=str, default='train_data.csv', help='CSV file containing training data.')
-    parser.add_argument('--vectorizer', type=str, default='count', help='Vectorizer type: "count" or "tfidf".')
+    parser.add_argument('--vectorizer', type=str, default='tfidf', help='Vectorizer type: "count" or "tfidf".')
     parser.add_argument('--language', type=str, default='portuguese', help='Language for stopwords (default: "portuguese").')
 
     args = parser.parse_args()
