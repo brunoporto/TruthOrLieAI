@@ -1,2 +1,9 @@
-scikit-learn
-numpy
+nltk==3.8.1
+numpy==1.26.4
+pandas==2.2.2
+requests==2.32.3
+scikit-learn==1.5.1
+setuptools==70.2.0
+torch==2.2.2
+tqdm==4.66.4
+transformers==4.42.3
